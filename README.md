@@ -17,8 +17,9 @@ Read more in the [official Cycle documentation](https://github.com/cycle/docs)
 [![Build Status](https://github.com/yiisoft/yii-cycle/workflows/build/badge.svg)](https://github.com/yiisoft/yii-cycle/actions?query=workflow%3Abuild)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiisoft/yii-cycle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/yii-cycle/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/yiisoft/yii-cycle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yiisoft/yii-cycle/?branch=master)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyiisoft%2Fyii-cycle%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/yiisoft/yii-cycle/master)
 [![static analysis](https://github.com/yiisoft/yii-cycle/workflows/static%20analysis/badge.svg)](https://github.com/yiisoft/yii-cycle/actions?query=workflow%3A%22static+analysis%22)
-
+[![type-coverage](https://shepherd.dev/github/yiisoft/yii-cycle/coverage.svg)](https://shepherd.dev/github/yiisoft/yii-cycle)
 
 ### Documentation
 
