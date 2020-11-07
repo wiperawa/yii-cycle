@@ -17,26 +17,12 @@ class SchemaToPHPTest extends TestCase
         $schema = include $file;
         $result = $this->createConverter($schema)->convert();
 
-        $this->assertEqualsWithoutLE($schemaString, $result);
+        $this->assertSame(strlen($schemaString), strlen($result), 'Length comparison');
+        $this->assertSame($schemaString, $result);
     }
 
     private function createConverter(array $schema): SchemaToPHP
     {
         return new SchemaToPHP(new Schema($schema));
-    }
-
-    /**
-     * Asserting two strings equality ignoring line endings.
-     * @param string $expected
-     * @param string $actual
-     * @param string $message
-     *
-     * @return void
-     */
-    private function assertEqualsWithoutLE(string $expected, string $actual, string $message = ''): void
-    {
-        $expected = str_replace("\r\n", "\n", $expected);
-        $actual = str_replace("\r\n", "\n", $actual);
-        $this->assertEquals($expected, $actual, $message);
     }
 }
