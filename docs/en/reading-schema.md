@@ -45,8 +45,8 @@ Use `FromFilesSchemaProvider` to load a schema:
     'yiisoft/yii-cycle' => [
         // ...
         'schema-providers' => [
-            \Yiisoft\Yii\Cycle\Schema\Provider\FromFileSchemaProvider::class => [
-                'file' => '@runtime/schema.php'
+            \Yiisoft\Yii\Cycle\Schema\Provider\FromFilesSchemaProvider::class => [
+                'files' => '@runtime/schema.php'
             ]
         ],
     ]
@@ -100,7 +100,7 @@ cycle/schema/php @runtime/schema.php
 
 `@runtime` alias is replaced automatically. Schema will be exported into `schema.php` file.
 
-Make sure schema exported is correct and then switch to using it via `FromFileSchemaProvider`.
+Make sure schema exported is correct and then switch to using it via `FromFilesSchemaProvider`.
 
 You can combine both ways to describe a schema. During project development it's handy to use annotations. You can generate
 migrations based on them. For production use schema could be moved into a file.
