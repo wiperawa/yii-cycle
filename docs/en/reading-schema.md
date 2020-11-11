@@ -76,7 +76,7 @@ return [
 
 Note that: 
 
-1. `FromFileSchemaProvider` loads a schema from a PHP-file via `include`. That requires security precautions.
+1. `FromFilesSchemaProvider` loads a schema from PHP-files via `include`. That requires security precautions.
    Make sure you store schema file in a safe path restricted from users.
 2. You can specify multiple schema files, which will be merged into one schema. 
 Exception will be thrown in case of collision of roles.
