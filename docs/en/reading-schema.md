@@ -37,7 +37,7 @@ Place it to the beginning of providers list to make the process of obtaining a s
 ## File-based schema
 
 If you want to avoid annotations, you can describe a schema in a PHP file.
-Use `FromFileSchemaProvider` to load a schema:
+Use `FromFilesSchemaProvider` to load a schema:
 
 ```php
 # config/common.php
