@@ -12,7 +12,7 @@ In `yii-cycle` package schema can be built from multiple sources represented by 
 In order to use multiple schema providers in turn, grouping `SchemaProviderPipeline` provider is used.
 You can configure this provider in `schema-providers` section of a `config/params.php` file.
 Arrage schema providers in such an order, that caching providers are at the top of the list, 
-and primary schema providers at the end. 
+and origin schema providers at the end. 
 
 
 ## Entity annotation based schema
