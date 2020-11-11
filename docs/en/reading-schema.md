@@ -84,7 +84,7 @@ Exception will be thrown in case of collision of roles.
 3. Thanks to internal cache, loading schema from a PHP-file is so fast that you can skip an external cache at all.
 But in case of loading multiple files, it may take extra time to merge them.
 4. You cannot generate migrations based on PHP-file schema. [See issue #25](https://github.com/yiisoft/yii-cycle/issues/25)
-5. Provider only reads schema. It cannot update the file after migration is applied, but `SimpleCacheSchemaProvider` does.
+5. Provider only reads schema. It cannot update the file after migration is applied, as `SimpleCacheSchemaProvider` does.
 
 ## Switching from annotations to file
 
